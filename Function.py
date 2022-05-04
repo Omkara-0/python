@@ -1,12 +1,40 @@
-name = input('Enter your name: ')
-print(name[1:])#print the first letter of the word
-print(name[2])#print letter for which the place value is assigned
-print(name[-1])#print the last letter of the word
-print(name[0:2])
-print(name[:3])#print all letters except last two letters
-print(name[0:5:2])
+#python 3.7.1
 
-print(name.capitalize())
-print(name.split())
-print(name.upper())
-print(name.lower())
+#.format function
+#.split function
+#.append function
+
+'''.remove function
+use only value as a parameter
+syntax : var_name.remove(value)'''
+
+#.insert function
+#.capitalize function
+#.upper function
+#.lower function
+#.add function
+#.discard function
+
+'''.pop function
+use also index as a parameter
+.pop returns a deleted value
+syntax : var_name.pop(index)'''
+
+#.copy function
+#.sort function
+#.sorted function
+#.count function
+#.index function
+#.tuple function
+
+tuple = ("1", "2", "3", "4", "One", "Two", "Three", "Four")
+set = {"1", "2", "3", "4", "One", "Two", "Three", "Four"}
+std = str(input("Name : "))
+reg = input("Reg.No : ")
+
+print("\nName : " + std + "\nReg.No : " + str(reg))
+print(f"\nName : {std} \nReg.No : {reg}")
+print("\nName : {} \nReg.No : {}".format(std, reg))
+
+#swap the values of variables
+print("\nName : {1} \nReg.No : {0}".format(std, reg))
